@@ -713,7 +713,9 @@ func (p *CSIPlugin) AddPlugin(nodeID string, info *CSIInfo) error {
 				p.ControllersHealthy -= 1
 			}
 		}
-		p.Controllers[nodeID] = info
+		if prev != nil || prev == nil && info.Healthy {
+			p.Controllers[nodeID] = info
+		}
 		if info.Healthy {
 			p.ControllersHealthy += 1
 		}
@@ -729,7 +731,9 @@ func (p *CSIPlugin) AddPlugin(nodeID string, info *CSIInfo) error {
 				p.NodesHealthy -= 1
 			}
 		}
-		p.Nodes[nodeID] = info
+		if prev != nil || prev == nil && info.Healthy {
+			p.Nodes[nodeID] = info
+		}
 		if info.Healthy {
 			p.NodesHealthy += 1
 		}
