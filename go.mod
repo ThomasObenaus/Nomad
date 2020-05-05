@@ -14,10 +14,10 @@ require (
 	github.com/RackSec/srslog v0.0.0-20160120223350-259aed10dfa7
 	github.com/StackExchange/wmi v0.0.0-20170410192909-ea383cf3ba6e
 	github.com/agext/levenshtein v1.2.1
-	github.com/apparentlymart/go-textseg v0.0.0-20170531203952-b836f5c4d331
+	github.com/apparentlymart/go-textseg v1.0.0
 	github.com/appc/spec v0.8.11
 	github.com/armon/circbuf v0.0.0-20150827004946-bbbad097214e
-	github.com/armon/go-metrics v0.0.0-20171116184120-6c3acc97c61d
+	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da
 	github.com/armon/go-radix v0.0.0-20160115234725-4239b77079c7
 	github.com/aws/aws-sdk-go v1.0.7-0.20151219012034-80dd4951fdb3
 	github.com/beorn7/perks v0.0.0-20160804104726-4c0e84591b9a
@@ -30,14 +30,14 @@ require (
 	github.com/containerd/fifo v0.0.0-20180307165137-3d5202aec260
 	github.com/containernetworking/cni v0.3.0
 	github.com/coreos/go-semver v0.2.1-0.20170613092238-1817cd4bea52
-	github.com/davecgh/go-spew v1.1.1-0.20171005155431-ecdeabc65495
+	github.com/davecgh/go-spew v1.1.1
 	github.com/docker/cli v0.0.0-20180829130958-deb84a9e4e10
 	github.com/docker/distribution v2.6.0-rc.1.0.20180828230305-b12bd4004afc+incompatible
 	github.com/docker/docker v1.4.2-0.20181129155816-baab736a3649
 	github.com/docker/docker-credential-helpers v0.6.2-0.20180719074751-73e5f5dbfea3
-	github.com/docker/go-connections v0.2.2-0.20170203235624-7da10c8c50ca
+	github.com/docker/go-connections v0.4.0
 	github.com/docker/go-metrics v0.0.0-20180209012529-399ea8c73916
-	github.com/docker/go-units v0.3.0
+	github.com/docker/go-units v0.3.3
 	github.com/dustin/go-humanize v0.0.0-20151125214831-8929fe90cee4
 	github.com/elazarl/go-bindata-assetfs v1.0.0
 	github.com/fatih/color v1.6.0
@@ -45,36 +45,36 @@ require (
 	github.com/fsouza/go-dockerclient v1.3.2-0.20181129025725-01c3e9bd8551
 	github.com/go-ini/ini v1.8.6-0.20151218033433-6ec4abd8f8d5
 	github.com/go-ole/go-ole v1.2.1-0.20170712174622-085abb85892d
-	github.com/gogo/protobuf v0.0.0-20171109181519-616a82ed12d7
-	github.com/golang/protobuf v1.1.0
+	github.com/gogo/protobuf v1.1.1
+	github.com/golang/protobuf v1.2.0
 	github.com/golang/snappy v0.0.0-20160529050041-d9eb7a3d35ec
 	github.com/google/btree v1.0.0
-	github.com/google/go-cmp v0.1.1-0.20170901214248-d5735f74713c
+	github.com/google/go-cmp v0.2.0
 	github.com/gorhill/cronexpr v0.0.0-20170915183032-675cac9b2d18
 	github.com/gorilla/context v1.1.1
 	github.com/gorilla/mux v1.6.3-0.20180807075256-e48e440e4c92
 	github.com/hashicorp/consul v1.2.0
 	github.com/hashicorp/consul-template v0.19.5
-	github.com/hashicorp/errwrap v0.0.0-20141028054710-7554cd9344ce
+	github.com/hashicorp/errwrap v1.0.0
 	github.com/hashicorp/go-checkpoint v0.0.0-20171009173528-1545e56e46de
 	github.com/hashicorp/go-cleanhttp v0.0.0-20170211003301-a45970658e51
 	github.com/hashicorp/go-discover v0.0.0-20180521215750-266744fed5f1
 	github.com/hashicorp/go-envparse v0.0.0-20180119215841-310ca1881b22
 	github.com/hashicorp/go-getter v0.0.0-20180425224130-3f60ec5cfbb2
 	github.com/hashicorp/go-hclog v0.0.0-20180709165350-ff2cf002a8dd
-	github.com/hashicorp/go-immutable-radix v0.0.0-20170725221215-8aac27015308
+	github.com/hashicorp/go-immutable-radix v1.0.0
 	github.com/hashicorp/go-memdb v0.0.0-20170831201540-20ff6434c1cc
 	github.com/hashicorp/go-msgpack v0.0.0-20150518234257-fa3f63826f7c
-	github.com/hashicorp/go-multierror v0.0.0-20150916205742-d30f09973e19
+	github.com/hashicorp/go-multierror v1.0.0
 	github.com/hashicorp/go-plugin v0.0.0-20181212150838-f444068e8f5a
 	github.com/hashicorp/go-retryablehttp v0.0.0-20180718195005-e651d75abec6
 	github.com/hashicorp/go-rootcerts v0.0.0-20160503143440-6bb64b370b90
 	github.com/hashicorp/go-safetemp v0.0.0-20180326211150-b1a1dbde6fdc
-	github.com/hashicorp/go-sockaddr v0.0.0-20180320115054-6d291a969b86
+	github.com/hashicorp/go-sockaddr v0.0.0-20190103214136-e92cdb5343bb
 	github.com/hashicorp/go-syslog v0.0.0-20150218181946-42a2b573b664
 	github.com/hashicorp/go-uuid v1.0.1
 	github.com/hashicorp/go-version v1.0.0
-	github.com/hashicorp/golang-lru v0.0.0-20160207214719-a0d98a5f2880
+	github.com/hashicorp/golang-lru v0.5.0
 	github.com/hashicorp/hcl v0.0.0-20161101180025-6e968a3fcdcb
 	github.com/hashicorp/hcl2 v0.0.0-20190305174554-fdf8e232b64f
 	github.com/hashicorp/logutils v0.0.0-20150609070431-0dc08b1671f3
@@ -87,13 +87,13 @@ require (
 	github.com/hashicorp/yamux v0.0.0-20180917205041-7221087c3d28
 	github.com/hpcloud/tail v1.0.1-0.20170814160653-37f427138745
 	github.com/jmespath/go-jmespath v0.0.0-20151208071831-c01cf91b0118
-	github.com/kr/pretty v0.0.0-20160823170715-cfb55aafdaf3
-	github.com/kr/text v0.0.0-20160504234017-7cafcd837844
+	github.com/kr/pretty v0.1.0
+	github.com/kr/text v0.1.0
 	github.com/mattn/go-colorable v0.1.0
 	github.com/mattn/go-isatty v0.0.4
 	github.com/mattn/go-shellwords v1.0.0
 	github.com/matttproud/golang_protobuf_extensions v1.0.1
-	github.com/miekg/dns v0.0.0-20160328144643-7e024ce8ce18
+	github.com/miekg/dns v1.0.14
 	github.com/mitchellh/cli v0.0.0-20180406011036-c54c85e9bd49
 	github.com/mitchellh/colorstring v0.0.0-20150917214807-8631ce90f286
 	github.com/mitchellh/copystructure v0.0.0-20170525013902-d23ffcb85de3
@@ -106,10 +106,10 @@ require (
 	github.com/mitchellh/reflectwalk v0.0.0-20170508173806-8d802ff4ae93
 	github.com/moby/moby v1.4.2-0.20180118190233-39377bb96d45
 	github.com/oklog/run v1.0.1-0.20180308005104-6934b124db28
-	github.com/onsi/ginkgo v1.4.1-0.20180312103414-ba8e856bb854
-	github.com/onsi/gomega v1.3.1-0.20180305203722-de89e61d40b7
-	github.com/opencontainers/go-digest v0.0.0-20170111181659-21dfd564fd89
-	github.com/opencontainers/image-spec v1.0.1-0.20171103113604-89b51c794e91
+	github.com/onsi/ginkgo v1.7.0
+	github.com/onsi/gomega v1.4.3
+	github.com/opencontainers/go-digest v1.0.0-rc1
+	github.com/opencontainers/image-spec v1.0.1
 	github.com/pkg/errors v0.8.1-0.20161029093637-248dadf4e906
 	github.com/pmezard/go-difflib v1.0.0
 	github.com/posener/complete v0.0.0-20170829171112-9f41f7636a72
@@ -123,29 +123,31 @@ require (
 	github.com/sean-/seed v0.0.0-20170313163322-e2103e2c3529
 	github.com/sethgrid/pester v0.0.0-20160429172022-8053687f9965
 	github.com/shirou/w32 v0.0.0-20160930032740-bb4de0191aa4
-	github.com/sirupsen/logrus v1.0.7-0.20180827052211-51df1d314861
+	github.com/sirupsen/logrus v1.1.0
 	github.com/skratchdot/open-golang v0.0.0-20160302144031-75fb7ed4208c
-	github.com/spf13/pflag v1.0.1-0.20170901120850-7aff26db30c1
+	github.com/spf13/pflag v1.0.2
 	github.com/stretchr/objx v0.0.0-20150928122152-1a9d0bb9f541
-	github.com/stretchr/testify v1.2.2-0.20180319223459-c679ae2cc0cb
+	github.com/stretchr/testify v1.2.2
 	github.com/syndtr/gocapability v0.0.0-20170704070218-db04d3cc01c8
 	github.com/tv42/httpunix v0.0.0-20150427012821-b75d8614f926
-	github.com/ugorji/go v0.0.0-20170620060102-0053ebfd9d0e
+	github.com/ugorji/go v1.1.1
 	github.com/ulikunitz/xz v0.5.4
 	github.com/vmihailenco/msgpack v3.3.3+incompatible
 	github.com/zclconf/go-cty v0.0.0-20190201220620-4ca19710f056
 	go4.org v0.0.0-20170525132722-034d17a462f7
-	golang.org/x/crypto v0.0.0-20180808211826-de0752318171
-	golang.org/x/net v0.0.0-20181102091132-c10e9556a7bc
-	golang.org/x/sync v0.0.0-20160715190549-316e794f7b5e
-	golang.org/x/sys v0.0.0-20180715085529-ac767d655b30
+	golang.org/x/crypto v0.0.0-20181029021203-45a5f77698d3
+	golang.org/x/net v0.0.0-20181129055619-fae4c4e3ad76
+	golang.org/x/sync v0.0.0-20181221193216-37e7f081c4d4
+	golang.org/x/sys v0.0.0-20181026203630-95b1ffbd15a5
 	golang.org/x/text v0.3.1-0.20180302201248-b7ef84aaf62a
 	golang.org/x/time v0.0.0-20160202183820-a4bde1265759
-	google.golang.org/genproto v0.0.0-20170711235230-b0a3dcfcd1a9
-	google.golang.org/grpc v1.2.1-0.20180717152604-b534d2d20e59
-	gopkg.in/fsnotify.v1 v1.4.2
+	google.golang.org/genproto v0.0.0-20180817151627-c66870c02cf8
+	google.golang.org/grpc v1.14.0
+	gopkg.in/fsnotify.v1 v1.4.7
 	gopkg.in/inf.v0 v0.9.0
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7
 	gopkg.in/tomb.v2 v2.0.0-20140626144623-14b3d72120e8
-	gopkg.in/yaml.v2 v2.0.0-20160928153709-a5b47d31c556
+	gopkg.in/yaml.v2 v2.2.2
 )
+
+replace github.com/ugorji/go v1.1.1 => ./vendor/github.com/ugorji/go
